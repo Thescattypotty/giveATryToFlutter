@@ -20,3 +20,6 @@ samples, guidance on mobile development, and a full API reference.
 
 ### Run Project
     flutter run
+
+### To DO : 
+    Add you google-services.json to android folder
