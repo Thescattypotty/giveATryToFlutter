@@ -22,4 +22,5 @@ samples, guidance on mobile development, and a full API reference.
     flutter run
 
 ### To DO : 
-    Add you google-services.json to android folder
+    - Add your `google-services.json` to `android/app`
+    - Create a `.env` file next to `.env.example` and fill it with the information from `.env.example`

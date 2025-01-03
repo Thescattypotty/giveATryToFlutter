@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:giveatrytoflutter/pages/home/home.dart';
+import 'package:giveatrytoflutter/pages/options/fun-options.dart';
 import 'package:giveatrytoflutter/pages/user/profile/profile.dart';
 import 'package:giveatrytoflutter/services/auth_service.dart';
 
@@ -61,6 +62,16 @@ class CustomDrawer extends StatelessWidget {
               Navigator.pushReplacement(
                 context,
                 MaterialPageRoute(builder: (context) => Profile()),
+              );
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.camera, color: Colors.black),
+            title: Text("Fun Options"),
+            onTap: () {
+              Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(builder: (context) => FunOptions()),
               );
             },
           ),
